@@ -1,0 +1,19 @@
+function lifeInWeeks(age) {
+
+    var remainingage = (90-age);
+
+    var months = (remainingage*12);
+
+    var weeks = (remainingage*52);
+
+    var days = (remainingage*365 );
+
+
+
+      console.log("You have" + " " + days + " " + "days," + " " + weeks + " " + "weeks," + " " + "and" + " " + months + " " + "months left.'.")
+
+
+
+   
+
+}
